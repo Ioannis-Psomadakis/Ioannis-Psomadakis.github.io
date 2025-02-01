@@ -1,7 +1,7 @@
 # Site Settings
 title: "Ioannis Psomadakis"
 description: "Experienced Data Scientist and Machine Learning Specialist"
-url: "https://ioannis-psomadakis.github.io"
+url: "https://ioannis-psomadakis.github.io/"
 baseurl: ""  # The subpath of your site, e.g. "/blog"
 
 # Theme Settings
