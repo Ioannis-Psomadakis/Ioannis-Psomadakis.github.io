@@ -1,0 +1,143 @@
+/* Horizontal category navigation */
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 0 15px; /* Add space between items */
+  }
+  
+  .hero {
+    margin-top: 60px; /* Ensure the content doesn't overlap with the navbar */
+  }
+  
+  /* Adjust profile image size */
+  .about-section img {
+    width: 180px;  /* Resize the profile image */
+    height: 180px; /* Maintain the aspect ratio */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;  /* Add spacing below image */
+  }
+  
+  /* Add custom padding to sections */
+  .about-section, .skills-section, .publications-section, .projects-section, .contact-section {
+    padding-top: 80px;
+  }
+  /* Force Dark Mode */
+body {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+  }
+  
+  .navbar, .footer {
+    background-color: #1e1e1e !important;
+  }
+  
+  a {
+    color: #1e90ff !important; /* Ensures links are visible */
+  }
+
+  /* Navbar Dark Theme */
+  .navbar {
+    background-color: #121212 !important;  /* Deep dark background */
+    border-bottom: 2px solid #444 !important; /* Subtle border */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #fff !important;  /* White text */
+}
+
+/* Remove hover color change */
+.navbar-nav .nav-link:hover {
+    color: #ccc !important; /* Light gray on hover */
+}
+
+/* Ensure navbar spans full width */
+.navbar-expand-lg {
+    width: 100%;
+}
+
+/* Contact Form Dark Theme */
+.contact-section .form-control {
+    background-color: #333 !important;  /* Dark background */
+    color: #fff !important;  /* White text */
+    border: 1px solid #555 !important;  /* Subtle border */
+}
+
+.contact-section .form-control::placeholder {
+    color: #aaa !important;  /* Lighter text for placeholders */
+}
+
+/* Contact Form Button */
+.contact-section .form-control {
+    background-color: #333 !important;  /* Dark input background */
+    color: #fff !important;  /* White text */
+    border: 1px solid #555 !important;  /* Subtle border */
+}
+
+.contact-section .form-control::placeholder {
+    color: #aaa !important;  /* Lighter text for placeholders */
+}
+
+/* Contact Form Button */
+.contact-section button {
+    background-color: #555 !important;  /* Darker gray button */
+    color: #fff !important;
+    border: none;
+}
+
+.contact-section button:hover {
+    background-color: #444 !important;  /* Slightly darker on hover */
+}
+
+/* Footer Dark Theme */
+.footer {
+    background-color: #222 !important;  /* Dark footer background */
+    color: #bbb !important;  /* Light gray text */
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #444;
+}
+
+.footer a {
+    color: #bbb !important;  /* Keep footer links light gray */
+}
+
+.footer a:hover {
+    color: #fff !important;  /* White on hover */
+}
+
+.navbar {
+    background-color: #121212 !important;
+    border-bottom: 2px solid #444 !important;
+    position: relative;
+    z-index: 1000;  /* Ensures navbar stays above other elements */
+}
+
+.navbar, .navbar-collapse, .navbar-nav, .navbar-nav .nav-item, .navbar-nav .nav-link {
+    background-color: #121212 !important;
+}
+
+/* Ensure entire page uses dark mode */
+body, html {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+/* Target outer container if it exists */
+.container, .wrapper, .page-wrapper, .site-container {
+    background-color: #121212 !important;
+}
+
+/* Ensure the header is also dark */
+header {
+    background-color: #121212 !important;
+}
+
+.masthead a {
+    display: none !important;
+}

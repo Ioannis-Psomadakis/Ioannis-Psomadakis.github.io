@@ -1,0 +1,184 @@
+---
+layout: default
+author_profile: true
+---
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Optional: Add Bootstrap if not already added -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<div class="home">
+  <!-- Categories Navigation Banner -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <ul class="navbar-nav d-flex justify-content-between w-100">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#publications">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section: Large Welcome Message -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section pt-5">
+    <div class="container">
+      <h2></h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="/assets/images/profile.jpg" alt="Ioannis Psomadakis" class="img-fluid rounded-circle" style="width: 180px; height: 180px;" />
+        </div>
+        <div class="col-md-8">
+          <p>
+            Dynamic Data Scientist specializing in data analysis, machine learning, visualization, and statistical modeling to drive sustainability and economic innovation. 
+            Proficient in Python, SQL, and Tableau BI, with a knack for integrating diverse datasets and transforming them into impactful insights. Passionate about leveraging data to spark real-world change!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Research</h3>
+          <ul>
+            <li>Machine Learning</li>
+            <li>Predictive Models</li>
+            <li>XAI (Explainable AI)</li>
+            <li>Model Fine Tuning</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Data Analysis and Visualization</h3>
+          <ul>
+            <li>NumPy</li>
+            <li>Pandas</li>
+            <li>SciPy</li>
+            <li>Seaborn</li>
+            <li>Plotly</li>
+            <li>Matplotlib</li>
+            <li>Tableau BI</li>
+            <li>MS Excel</li>
+            <li>Orange 3</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Experimentation</h3>
+          <ul>
+            <li>Hypothesis Validation</li>
+            <li>Statistical Modeling</li>
+          </ul>
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Python | SciKit-Learn, TensorFlow, Keras</li>
+            <li>R</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3>AI</h3>
+          <ul>
+            <li>Microsoft Azure AI</li>
+            <li>OpenAI Python API</li>
+            <li>Copilot</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Big Data and Cloud Services</h3>
+          <ul>
+            <li>Spark</li>
+            <li>MS Azure</li>
+            <li>AWS</li>
+            <li>lakeFS</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Deep Learning</h3>
+          <ul>
+            <li>XGBoost</li>
+            <li>Decision Trees</li>
+            <li>Random Forests</li>
+            <li>Neural Networks</li>
+            <li>Gaussian Process Spatial Models</li>
+            <li>LLMs (Large Language Models)</li>
+            <li>NLP (Natural Language Processing)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section id="publications" class="publications-section">
+    <div class="container">
+      <h2>Publications</h2>
+      <ul>
+        <li><a href="https://scholar.google.com/citations?user=EXAHYZIAAAAJ&hl=en&oi=sra" target="_blank">Explainable Machine Learning-Based Electric Field Strength Mapping for Radio Environmental Map Construction</a></li>
+        <li><a href="https://scholar.google.com/citations?user=EXAHYZIAAAAJ&hl=en&oi=sra" target="_blank">The Use of Explainable Machine Learning for the Prediction of the Quality of Bulk-Tank Milk in Sheep and Goat Farms</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <p>Explore my projects on GitHub:</p>
+      <a href="https://github.com/Ioannis-Psomadakis" target="_blank" class="btn btn-outline-primary">Visit My GitHub</a>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you’d like to collaborate, have any questions, or want to discuss data science opportunities, feel free to reach out to me via email or through LinkedIn.</p>
+      
+      <form action="https://formspree.io/f/{your-form-id}" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button ty
