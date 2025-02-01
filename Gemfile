@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# Add this line at the top
+gem 'public_suffix', '4.0.7'
+
 # Use Jekyll version compatible with liquid 4.0.4
 gem "jekyll", "~> 4.2.0"
 
@@ -38,3 +41,4 @@ gem "liquid", "4.0.4"
 
 # Add webrick for compatibility with Jekyll
 gem "webrick", "~> 1.7"
+
