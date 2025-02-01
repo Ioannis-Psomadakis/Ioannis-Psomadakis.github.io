@@ -1,13 +1,12 @@
 source "https://rubygems.org"
 
-# Add this line at the top
+gem 'csv'
+
+# Ensure compatibility with dependencies
 gem 'public_suffix', '4.0.7'
 
-# Use Jekyll version compatible with liquid 4.0.4
+# Jekyll version compatible with Liquid 4.0.4
 gem "jekyll", "~> 4.2.0"
-
-# GitHub Pages is excluded due to the liquid version conflict
-# gem "github-pages", "~> 227", group: :jekyll_plugins
 
 # Jekyll plugins
 group :jekyll_plugins do
@@ -24,7 +23,6 @@ gem "jemoji", "= 0.12.0"
 
 # Optional plugins
 gem "jekyll-commonmark", "~> 1.0"
-# gem "jekyll-commonmark-ghpages", "~> 0.5.0"
 
 # Compatibility for Windows
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -32,7 +30,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
-# Compatibility for Windows
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
@@ -41,4 +38,3 @@ gem "liquid", "4.0.4"
 
 # Add webrick for compatibility with Jekyll
 gem "webrick", "~> 1.7"
-

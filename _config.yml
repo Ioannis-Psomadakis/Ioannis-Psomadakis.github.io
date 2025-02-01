@@ -35,6 +35,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-include-cache
 
 # Markdown Processing
 markdown: kramdown
