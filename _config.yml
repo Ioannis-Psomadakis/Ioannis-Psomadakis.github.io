@@ -1,6 +1,6 @@
 # Site Settings
 title: "Ioannis Psomadakis"
-description: "Experienced Data Scientist and Machine Learning Specialist"
+description: "Data Scientist and Ph.D. Researcher in Machine Learning and Explainable AI"
 url: "https://ioannis-psomadakis.github.io/"
 baseurl: ""  # The subpath of your site, e.g. "/blog"
 
@@ -23,7 +23,7 @@ social:
 author:
   name: "Ioannis Psomadakis"
   avatar: "/assets/images/profile.jpg"
-  bio: "Dynamic Data Scientist specializing in data analysis, machine learning, visualization, and statistical modeling."
+  bio: "Data Scientist and Ph.D. Researcher specializing in machine learning, explainable AI, and statistical modeling."
   location: "Amsterdam, Netherlands"
 
 # Pagination
